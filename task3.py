@@ -17,3 +17,13 @@
 # "2" : The number is 100 or a number up to 1000 
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
+a = input("Number")
+a = int(a)
+if a >= 1000:
+ print("3")
+if a >= 100:
+ print("2")
+if a >= 10:
+ print("1")
+if a >= 0: 
+ print("0")
